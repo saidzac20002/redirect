@@ -1,0 +1,35 @@
+body{
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    color: white;
+}
+main{
+    width: 500px;
+    height: 500px;
+    background-color: #2b2b2b;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color:rgb(110, 188, 110)
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
